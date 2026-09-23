@@ -21,21 +21,22 @@
 
 ## Repository structure
 
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
+Solutions are organized under a course folder, then by NeetCode topic, then by problem ID. Each submission is stored as a separate file:
 
 ```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
+Data Structures & Algorithms/
+  <NeetCode topic>/
+    <problem-id>/
+      submission-0.<ext>   ← first submission
+      submission-1.<ext>   ← second submission
+      ...
 ```
 
 **Example:**
 ```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
+Data Structures & Algorithms/Arrays & Hashing/two-integer-sum/submission-0.py
+Data Structures & Algorithms/Two Pointers/is-palindrome/submission-0.py
+Data Structures & Algorithms/Binary Search/.gitkeep
 ```
 
 ---
